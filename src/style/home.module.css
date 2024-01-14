@@ -1,0 +1,108 @@
+main {
+  width: 100vw;
+}
+.delivery_box {
+  height: 99%;
+  padding-top: 12%;
+  padding-left: 8vw;
+  padding-bottom: 10vw;
+  background-image: url(../assets/background_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: #c9a4b4;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h1 span {
+  color: #bd1653;
+}
+.del_box_text {
+  width: 25vw;
+  margin-top: 5vw;
+  color: #ebe4ec;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.del_btn {
+  width: 10vw;
+  background-color: #2b5c3a;
+  filter: drop-shadow(0px 15px 40px rgba(128, 249, 190, 0.25));
+  color: #e8faef;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 4vw;
+  margin-top: 3vw;
+  text-align: center;
+}
+.cart_ordered{
+  width: 100%;
+  margin: -2.4vw 0;
+  text-align: center;
+  background-color: gray;
+  background-image: url(../assets/background_main.jpg);
+  background-repeat: no-repeat;
+}
+.main_text {
+  color: var(--1, #1b0d15);
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 900;
+  font-style: normal;
+  padding-top: 8vw;
+  padding-bottom: 2vw;
+  text-align: center;
+}
+.work_list {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding-bottom: 5vw;
+}
+.work_list h3 {
+  color: #213a21;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; 
+}
+.dish_container {
+  width: 100%;
+  background-color: #e9f8f6;
+  padding: 0;
+}
+.dish_cart_container {
+  display: flex;
+  width: 89%;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+}
+.delivery_box_2{
+  display: flex;
+  height: 80%;
+  padding-top: 6%;
+  padding-left: 8vw;
+  background-image: url(../assets/background_mobile_app.jpg);
+}
+.delivery_box_2 h2{
+  color: #def7e7;
+  margin-top: 10vw;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+}
+.icon_size:hover{
+  transform: scale(1.15);
+}

@@ -1,0 +1,45 @@
+.header_container {
+  width: 84%;
+  height: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8vw;
+  background-color: #f6ecf4;
+  position: fixed;
+  z-index: 10;
+  margin: 0;
+}
+
+.header_container li {
+  list-style: none;
+  color: #3c3c3c;
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navHeader {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.navHeader li a {
+  text-decoration: none;
+  color: #3c3c3c;
+}
+.navHeader li a:hover {
+  text-decoration: underline;
+  text-underline-offset: 1vw;
+  text-decoration-thickness: 3px;
+  color: #8e183d;
+}
+.logo {
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
